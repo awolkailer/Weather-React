@@ -36,10 +36,7 @@ export default function Weather() {
         <div className="row">
           <div className="col-md-6">
             <div className="weather-temperature">
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                className="float-left"
-              />
+              
               <div className="float-left">
                 <strong>15°C</strong>
                 <span className="units">
@@ -70,7 +67,6 @@ export default function Weather() {
       <small className="coded">
         <a
           href="https://github.com/awolkailer/Weather-React"
-          target="_blank"
           className="github"
         >
           Open-Source code{" "}
